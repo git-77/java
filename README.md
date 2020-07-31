@@ -3,14 +3,6 @@
 <head>
 <title>js</title>
 </head>
-<Style>
-body{
-background-color: light blue;
-}
-h2{
-background-color: red;
-}
-</Style>
 <body>
 <h2>Area and perimeter of a circle</h2>
 <button onclick="area1()">Area</button><br><br>
