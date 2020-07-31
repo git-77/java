@@ -8,7 +8,7 @@
 <button onclick="area1()">Area</button><br><br>
 <button onclick="perimeter1()">Perimeter</button>
 <p id="demo"></p>
-<h2>Area and perimeterof a rectangle</h2><br><br>
+<h2>Area and perimeter of a rectangle</h2><br><br>
 <button onclick="area2()">area</button><br><br>
 <button onclick="Perimeter2()">Perimeter</button>
 <h2>All prime Numbers upto a number</h2><br><br>
@@ -41,10 +41,10 @@ alert("the area of rectangle"+r+"is "+a);
 }
 function perimeter2()
 {
-var l,b,p=0;
+var l,b,p;
 l=parseInt(prompt("input the length"));
 b=parseInt(prompt("input the bredth"));
-p=2(l+b);
+p=(l+b)+(l+b);
 document.getElementById('demo').innerHTML=("<h2>the Perimeter of the rectangle is "+p+"</h2>");
 alert("the perimeter of a rectangle"+r+"is "+p);
 }
