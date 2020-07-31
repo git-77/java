@@ -12,14 +12,14 @@
 function area()
 {
 var r,a;
-r=parseInt(prompt("input the radius"));
+r=ParseInt(prompt("input the radius"));
 a=π*r*r;
-alert("the area of circle"+r+"is "+a+");
+alert("the area of circle"+r+"is "+a");
 }
 function perimeter()
 {
 var r,p;
-r=parseInt(prompt("input the radius"));
+r=ParseInt(prompt("input the radius"));
 p=2*π*r;
 alert("the perimeter of a circle"+r+"is "+p);
 }
