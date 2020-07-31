@@ -3,6 +3,14 @@
 <head>
 <title>js</title>
 </head>
+<Style>
+body{
+background-color: light blue;
+}
+h2{
+background-color: red;
+}
+</Script>
 <body>
 <h2>Area and perimeter of a circle</h2>
 <button onclick="area1()">Area</button><br><br>
@@ -41,7 +49,7 @@ alert("the area of rectangle"+r+"is "+a);
 }
 function perimeter2()
 {
-var l,b,p;
+var l,b,p=0;
 l=parseInt(prompt("input the length"));
 b=parseInt(prompt("input the bredth"));
 p=(l+b)+(l+b);
