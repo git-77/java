@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>js</title>
+<title>js</title>
 </head>
-	<body>
-		<h2>Area and perimeter of a circle</h2>
-		<button onclick="area1()">Area</button><br><br>
+<body>
+<h2>Area and perimeter of a circle</h2>
+<button onclick="area1()">Area</button><br><br>
 <button onclick="perimeter1()">Perimeter</button>
 <p id="demo"></p>
 <h2>Area and perimeterof a rectangle</h2><br><br>
@@ -13,7 +13,7 @@
 <button onclick="Perimeter2()">Perimeter</button>
 <h2>All prime Numbers upto a number</h2><br><br>
 <button onclick="prime()">prime numbers</button>
-		<script>
+<script>
 function area1()
 {
 var r,a=0;
@@ -69,7 +69,7 @@ document.write("<h1>"+i+"<br></h1>");
 }
 }
 }
-		</script>
-	</body>
+</script>
+</body>
 </html>
 
