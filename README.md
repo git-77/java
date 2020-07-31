@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -8,7 +7,7 @@
 		<h2>Area and perimeter of a circle</h2>
 		<button onclick="area()">Area</button><br><br>
 <button onclick="perimeter()">Perimeter</button>
-		<script>
+		<script value="JavaScript">
 function area()
 {
 var r,a;
