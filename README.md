@@ -45,7 +45,7 @@ var l,b,p=0;
 l=parseInt(prompt("input the length"));
 b=parseInt(prompt("input the bredth"));
 p=2(l+b);
-document.getElementById('demo'). innerHTML=("<h2>the Perimeter of the rectangle is "+p+"</h2>");
+document.getElementById('demo').innerHTML=("<h2>the Perimeter of the rectangle is "+p+"</h2>");
 alert("the perimeter of a rectangle"+r+"is "+p);
 }
 function prime()
