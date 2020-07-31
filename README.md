@@ -26,7 +26,7 @@ function perimeter1()
 {
 var r,p=0;
 r=parseInt(prompt("input the radius"));
-p=2*π*r;
+p=2*3.14*r;
 document.getElementById('demo'). innerHTML=("<h2>the Perimeter of the circle is "+p+"</h2>");
 alert("the perimeter of a circle"+r+"is "+p);
 }
