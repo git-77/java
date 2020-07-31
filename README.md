@@ -6,22 +6,22 @@
 	<body>
 		<h2>Area and perimeter of a circle</h2>
 		<button onclick="area()">Area</button><br><br>
-<button onclick="perimeter()">Perimeter</button>
-		<script value="JavaScript">
+<button  onclick="perimeter()">Perimeter</button>
+<script>
 function area()
 {
 var r,a;
-r=ParseInt(prompt("input the radius"));
-a=π*r*r;
-alert("the area of circle"+r+"is "+a");
+r=parseInt(prompt("input the radius"));
+a=3.14*r*r;
+alert("the area of circle"+r+"is "+a);
 }
 function perimeter()
 {
 var r,p;
-r=ParseInt(prompt("input the radius"));
-p=2*π*r;
+r=parseInt(prompt("input the radius"));
+p=2*3.14*r;
 alert("the perimeter of a circle"+r+"is "+p);
 }
-		</script>
+</script>
 	</body>
 </html>
